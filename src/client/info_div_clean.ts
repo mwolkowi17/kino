@@ -15,7 +15,7 @@ export class invoDivClean {
         this.main.textContent = tytul;
         this.main.style.color = 'black'
         this.main.style.height = wysokosc;
-        this.main.style.width = "480px";
+        this.main.style.width = "350px";
         this.main.style.fontSize = "15px";
         this.main.style.fontFamily= "arial"
         this.main.style.textAlign = "center";
@@ -29,6 +29,7 @@ export class invoDivClean {
         this.valvleDetails.className = 'details_valve';
         this.valvleDetails.textContent = tekst
         this.valvleDetails.style.fontWeight= "normal"
+        this.valvleDetails.style.margin='15px'
         this.main.appendChild(this.valvleDetails);
         
 

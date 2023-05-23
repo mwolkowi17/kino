@@ -38,7 +38,7 @@ navicon1.element.addEventListener('pointerdown', () => {
 })
 
 //dodawanie obrazka
-const infodiv1 = new invoDivClean("120px",tytuly[0], teksty[0]);
+const infodiv1 = new invoDivClean("150px",tytuly[0], teksty[0]);
 
 //dodawanie ikony-obrazek
 export const infoicon1 = new create_info_icon_left(30, 15, 0, 'imageInfo1')
