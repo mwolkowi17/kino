@@ -1,0 +1,1 @@
+export const tytuly=['Kino','Sala widowiskowa']
